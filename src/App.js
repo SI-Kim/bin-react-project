@@ -1,6 +1,6 @@
 import "./styles.css";
 import { Header, Footer } from "./layouts/index";
-import Route from "./routes/Route";
+import Router from "./routes/Router";
 import { useStyle } from "@material-ui/styles";
 
 export default function App() {
@@ -8,7 +8,7 @@ export default function App() {
   return (
     <div className="App">
       <Header />
-      <Route />
+      <Router />
       <Footer />
     </div>
   );
