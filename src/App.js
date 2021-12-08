@@ -1,10 +1,13 @@
 import "./styles.css";
-import Layout from "./layouts/Layout";
+import { Header, Footer } from "./layouts/index";
+import Route from "./routes/Route";
 
 export default function App() {
   return (
-    <div>
-      <Layout />
+    <div className="App">
+      <Header />
+      <Route />
+      <Footer />
     </div>
   );
 }
