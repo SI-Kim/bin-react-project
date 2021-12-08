@@ -1,14 +1,16 @@
 import React from "react";
 import { HomeContainer } from "../containers/index";
+import Header from "./Header";
+import Footer from "./Footer";
 
 const Layout = () => {
   return (
     <div>
-      <header>Header</header>
+      <Header />
       <main>
         <HomeContainer />
       </main>
-      <footer>footer</footer>
+      <Footer />
     </div>
   );
 };
