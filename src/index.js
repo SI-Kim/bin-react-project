@@ -1,18 +1,15 @@
 import { StrictMode } from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter } from "react-router-dom";
-import { Provider } from "react-redux";
 
 import App from "./App";
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(
   <StrictMode>
-    <Provider>
-      <BrowserRouter>
-        <App />
-      </BrowserRouter>
-    </Provider>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
   </StrictMode>,
   rootElement
 );
