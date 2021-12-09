@@ -8,10 +8,10 @@ const Header = () => {
       <div>
         <a href="/">메뉴 이름</a>
         <nav style={{ float: "right", marginRight: "15px" }}>
-          <a href="#" style={{ margin: "10px" }}>
+          <a href="/" style={{ margin: "10px" }}>
             사용자
           </a>
-          <a href="#">로그아웃</a>
+          <a href="/">로그아웃</a>
         </nav>
       </div>
     </header>
