@@ -6,7 +6,7 @@ const HomeContainer = () => {
 
   return (
     <div className={classes.main}>
-      <div className={classes.mainFirst}>home</div>
+      <div className={classes.mainFirst}>관리자화면</div>
       <div className={classes.mainSecond}>buttons</div>
     </div>
   );

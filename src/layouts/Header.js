@@ -5,12 +5,15 @@ const Header = () => {
   const classes = useStyles();
   return (
     <header className={classes.header}>
-      <nav>
-        <a href="/">홈(로고)</a>
-        <a href="#">메뉴2</a>
-        <a href="#">메뉴3</a>
-        <a href="#">메뉴4</a>
-      </nav>
+      <div>
+        <a href="/">메뉴 이름</a>
+        <nav style={{ float: "right", marginRight: "15px" }}>
+          <a href="#" style={{ margin: "10px" }}>
+            사용자
+          </a>
+          <a href="#">로그아웃</a>
+        </nav>
+      </div>
     </header>
   );
 };
