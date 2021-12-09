@@ -22,8 +22,9 @@ const useStyles = makeStyles({
   header: {
     top: "0",
     height: "10%",
-    width: "100%",
-    backgroundColor: "#79B4B7"
+    width: "75%",
+    backgroundColor: "#79B4B7",
+    float: "right"
   }
 });
 
