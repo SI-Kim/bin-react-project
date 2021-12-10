@@ -6,7 +6,9 @@ const HomeContainer = () => {
 
   return (
     <div className={classes.main}>
-      <div className={classes.mainFirst}>관리자화면</div>
+      <div className={classes.mainFirst}>대시보드</div>
+      <div className={classes.mainFirst}>방문자 수</div>
+      <div className={classes.mainFirst}>최근 게시물</div>
     </div>
   );
 };
@@ -14,12 +16,15 @@ const HomeContainer = () => {
 const useStyles = makeStyles({
   main: {
     height: "inherit",
-    width: "100%"
+    width: "72vw",
+    float: "right"
   },
   mainFirst: {
-    height: "80%",
-    width: "100%",
-    backgroundColor: "#FEFBF3"
+    height: "50%",
+    width: "49%",
+    backgroundColor: "#FEFBF3",
+    border: "1px solid",
+    display: "inline-block"
   }
 });
 

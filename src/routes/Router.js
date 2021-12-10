@@ -16,7 +16,7 @@ const Router = () => {
 
 const useStyles = makeStyles({
   routes: {
-    height: "80%",
+    height: "100%",
     width: "100%"
   }
 });
