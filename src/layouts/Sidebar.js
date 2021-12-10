@@ -14,7 +14,7 @@ const useStyles = makeStyles({
   sidebar: {
     backgroundColor: "#F8F0DF",
     float: "left",
-    height: "100vh",
+    height: "90vh",
     width: "25vw"
   }
 });

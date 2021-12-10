@@ -6,8 +6,8 @@ export default function App() {
   const classes = useStyles();
   return (
     <div className={classes.App}>
-      <Sidebar />
       <Header />
+      <Sidebar />
       <Router />
       <Footer />
     </div>
