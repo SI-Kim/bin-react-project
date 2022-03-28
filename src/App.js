@@ -1,12 +1,12 @@
 import "./styles.css";
 import { Header, Footer } from "./layouts/index";
-import Route from "./routes/Route";
+import Router from "./routes/Router";
 
 export default function App() {
   return (
     <div className="App">
       <Header />
-      <Route />
+      <Router />
       <Footer />
     </div>
   );
