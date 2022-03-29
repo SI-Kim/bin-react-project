@@ -2,13 +2,14 @@ import React from "react";
 import { makeStyles } from "@mui/styles";
 
 export default function DefaultComponent() {
-
   const classes = useStyles();
-  
+
   return (
-    <div className={classes.mainFirst}>대시보드</div>
+    <div>
+      <div className={classes.mainFirst}>대시보드</div>
       <div className={classes.mainFirst}>방문자 수</div>
       <div className={classes.mainFirst}>최근 게시물</div>
+    </div>
   );
 }
 
