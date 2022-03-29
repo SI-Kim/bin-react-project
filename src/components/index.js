@@ -1,1 +1,1 @@
-export { default as DefaultComponent } from "./DefaultComponent";
+export { default as Todo } from "./Todo";

@@ -1,6 +1,6 @@
 import React from "react";
 import { makeStyles } from "@mui/styles";
-import { DefaultComponent } from "../components/index";
+import { Todo } from "../components/index";
 import { Header, Footer } from "../layouts/index";
 
 const HomeContainer = () => {
@@ -8,7 +8,7 @@ const HomeContainer = () => {
   return (
     <div className={classes.main}>
       <Header />
-      <DefaultComponent />
+      <Todo />
       <Footer />
     </div>
   );
