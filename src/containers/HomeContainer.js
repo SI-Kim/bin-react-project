@@ -1,6 +1,7 @@
 import React from "react";
 import { makeStyles } from "@mui/styles";
-import { Todo } from "../components/index";
+import { Todo } from "../components/todos/index";
+import { Calendar } from "../components/calendars/index";
 import { Header, Footer } from "../layouts/index";
 
 const HomeContainer = () => {
@@ -9,6 +10,7 @@ const HomeContainer = () => {
     <div className={classes.main}>
       <Header />
       <Todo />
+      <Calendar />
       <Footer />
     </div>
   );
